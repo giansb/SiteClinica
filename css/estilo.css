@@ -46,7 +46,7 @@ header {
 
 .section-background{
     position: relative;
-    background-image: url(./assets/recepcao.png);
+    background-image: url(../assets/recepcao.png);
     width: 100%;
     height: 600px;
     background-position: center;
