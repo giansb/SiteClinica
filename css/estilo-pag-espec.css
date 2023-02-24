@@ -53,7 +53,7 @@ body{
 }
 
 .tab .type2{
-    background-image: url(/assets2/pediatra2.png); 
+    background-image: url("../assets2/pediatra2.png"); 
 }
 
 .tab .type3{
