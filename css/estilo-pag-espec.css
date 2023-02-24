@@ -46,26 +46,26 @@ body{
 .tab .image{
     width: 300px;
     height: 250px;
-    background-image: url(/assets2/ortopedia.png);
+    background-image: url(assets2/ortopedia.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tab .type2{
-    background-image: url(/assets2/pediatra2.png); 
+    background-image: url(assets2/pediatra2.png); 
 }
 
 .tab .type3{
-    background-image: url(/assets2/geriatra.png);
+    background-image: url(assets2/geriatra.png);
 }
 
 .tab .type4{
-    background-image: url(/assets2/psicologo.png);
+    background-image: url(assets2/psicologo.png);
 }
 
 .tab .type5{
-    background-image: url(/assets2/fisioterapia.png);
+    background-image: url(assets2/fisioterapia.png);
 }
 
 .tab table{
