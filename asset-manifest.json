@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SiteClinica/static/css/main.1e384c6f.css",
+    "main.js": "/SiteClinica/static/js/main.0800d99a.js",
+    "static/js/787.1d354538.chunk.js": "/SiteClinica/static/js/787.1d354538.chunk.js",
+    "static/media/recepcao.png": "/SiteClinica/static/media/recepcao.9d187a831c74928ff8c1.png",
+    "static/media/fisioterapia.png": "/SiteClinica/static/media/fisioterapia.a9213a530a596925ac69.png",
+    "static/media/pediatra2.png": "/SiteClinica/static/media/pediatra2.16a19a8693138c951c7a.png",
+    "static/media/geriatra.png": "/SiteClinica/static/media/geriatra.260261536144665107b8.png",
+    "static/media/psicologo.png": "/SiteClinica/static/media/psicologo.b19c7d2b863f77327970.png",
+    "static/media/ortopedia.png": "/SiteClinica/static/media/ortopedia.943599180a05e8fc4269.png",
+    "index.html": "/SiteClinica/index.html",
+    "main.1e384c6f.css.map": "/SiteClinica/static/css/main.1e384c6f.css.map",
+    "main.0800d99a.js.map": "/SiteClinica/static/js/main.0800d99a.js.map",
+    "787.1d354538.chunk.js.map": "/SiteClinica/static/js/787.1d354538.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e384c6f.css",
+    "static/js/main.0800d99a.js"
+  ]
+}
