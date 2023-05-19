@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+}
+
+.content-limit{
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+  color: rgb(97, 97, 97);
+}
+
+
+
+
+@media(max-width:800px){
+
+
+  .content-limit{
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: left;
+    font-size: 20px;
+    padding: 40px;
+}
+
+}
