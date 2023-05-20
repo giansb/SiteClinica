@@ -2,8 +2,7 @@
 import './App.css';
 import PaginaEspecialidades from './componentes/PaginaEspecialidades';
 import PaginaHome from './componentes/PaginaHome';
-import { BrowserRouter } from "react-router-dom";
-import {Route, Switch } from 'react-router';
+import { BrowserRouter ,Route, Routes} from "react-router-dom";
 
 
 
@@ -12,10 +11,10 @@ function App() {
     <div>
       
       <BrowserRouter basename='/SiteClinica'>
-        <Switch>
+        <Routes>
           <Route exact path='/' element={<PaginaHome/>}></Route>
-          <Route path='/SiteClinica/especialidades' element={<PaginaEspecialidades/>}></Route>
-        </Switch>      
+          <Route path='/especialidades' element={<PaginaEspecialidades/>}></Route>
+        </Routes>      
       </BrowserRouter>
       
     </div>
