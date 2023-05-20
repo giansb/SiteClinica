@@ -15,7 +15,7 @@ export default function PaginaHome(){
                 <h2>Sobre a clínica</h2>
                 <p>Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que você precisam.</p>
                 <div class="section-about-list">
-                <div><img class="section-about-img" src="./assets/medico.jpg"/></div>
+                <div><img class="section-about-img" src="./SiteClinica/assets/medico.jpg"/></div>
                 <div class="list">
                     <h3>Aqui na nossa clínica você vai encontrar:</h3>
                     <ul>
@@ -37,15 +37,15 @@ export default function PaginaHome(){
             </div>
             <div class="specialties-boxes">
                 <div class="s-box">
-                    <img class="s-box-img" src="./assets/ortopedia1.png"/>
+                    <img class="s-box-img" src="./SiteClinica/assets/ortopedia1.png"/>
                     <p><span>Ortopedia</span></p>
                 </div>
                 <div class="s-box">
-                    <img class="s-box-img" src="./assets/pediatra.png"/>
+                    <img class="s-box-img" src="./SiteClinica/assets/pediatra.png"/>
                     <p><span>Pediatria</span></p>
                 </div>
                 <div class="s-box">
-                    <img class="s-box-img" src="./assets/geriatra.png"/>
+                    <img class="s-box-img" src="./SiteClinica/assets/geriatra.png"/>
                     <p><span>Geriatria</span></p>
                 </div>
             </div>
