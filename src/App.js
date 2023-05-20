@@ -12,7 +12,7 @@ function App() {
       
       <BrowserRouter basename='/SiteClinica'>
         <Routes>
-          <Route exact path='/SiteClinica' element={<PaginaHome/>}></Route>
+          <Route exact path='/' element={<PaginaHome/>}></Route>
           <Route path='/especialidades' element={<PaginaEspecialidades/>}></Route>
         </Routes>      
       </BrowserRouter>
