@@ -11,8 +11,8 @@ function App() {
     <div>
       
         <swtich>
-          <Route exact path='/SiteClinica'><PaginaHome/></Route>
-          <Route path='/SiteClinica/especialidades/'><PaginaEspecialidades/></Route>
+          <Route exact path='/'><PaginaHome/></Route>
+          <Route path='/especialidades'><PaginaEspecialidades/></Route>
         </swtich>
       
     </div>
