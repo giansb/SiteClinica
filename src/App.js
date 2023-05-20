@@ -10,10 +10,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/SiteClinica'>
         <Routes>
-          <Route exact path='/' element={<PaginaHome/>}></Route>
-          <Route path='/especialidades' element={<PaginaEspecialidades/>}></Route>
+          <Route exact path='/SiteClinica' element={<PaginaHome/>}></Route>
+          <Route path='/SiteClinica/especialidades' element={<PaginaEspecialidades/>}></Route>
         </Routes>      
       </BrowserRouter>
     </div>
