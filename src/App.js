@@ -10,10 +10,12 @@ function App() {
   return (
     <div>
       
-        <swtich>
-          <Route exact path='/SiteClinica'><PaginaHome/></Route>
-          <Route path='/SiteClinica/especialidades'><PaginaEspecialidades/></Route>
-        </swtich>
+      <BrowserRouter >
+        <Routes>
+          <Route exact path='/SiteClinica/' element={<PaginaHome/>}></Route>
+          <Route path='/SiteClinica/especialidades/' element={<PaginaEspecialidades/>}></Route>
+        </Routes>      
+      </BrowserRouter>
       
     </div>
   );
