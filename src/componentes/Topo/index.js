@@ -14,7 +14,7 @@ export default function Topo(){
                 <ul class="link-list" type="none">
                     <li><HashLink to='/SiteClinica#sobre' smooth>Sobre</HashLink></li>
                     <li><a href="/SiteClinica/especialidades">Especialidades</a></li>
-                    <li><HashLink to='/SiteClinica#contato' smooth>contato</HashLink></li>
+                    <li><HashLink to='/SiteClinica#contato' smooth>Contato</HashLink></li>
                 </ul>
                 
             </div>
