@@ -10,9 +10,9 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter >
+      <BrowserRouter basename='/SiteClinica'>
         <Routes>
-          <Route exact path='/SiteClinica/' element={<PaginaHome/>}></Route>
+          <Route exact path='/' element={<PaginaHome/>}></Route>
           <Route path='/SiteClinica/especialidades/' element={<PaginaEspecialidades/>}></Route>
         </Routes>      
       </BrowserRouter>
