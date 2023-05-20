@@ -2,8 +2,8 @@
 import './App.css';
 import PaginaEspecialidades from './componentes/PaginaEspecialidades';
 import PaginaHome from './componentes/PaginaHome';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Switch } from 'react-router';
+import { BrowserRouter } from "react-router-dom";
+import {Route, Switch } from 'react-router';
 
 
 
