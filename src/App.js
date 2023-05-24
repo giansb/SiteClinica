@@ -2,8 +2,7 @@
 import './App.css';
 import PaginaEspecialidades from './componentes/PaginaEspecialidades';
 import PaginaHome from './componentes/PaginaHome';
-import { HashRouter, Routes, route
- } from 'react-router-dom';
+import { HashRouter, Routes, Route} from 'react-router-dom';
 
 
 
