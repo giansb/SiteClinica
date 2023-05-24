@@ -2,7 +2,9 @@
 import './App.css';
 import PaginaEspecialidades from './componentes/PaginaEspecialidades';
 import PaginaHome from './componentes/PaginaHome';
-import { BrowserRouter ,Route, Routes} from "react-router-dom";
+import { HashRouter, Routes, route
+ } from 'react-router-dom';
+
 
 
 
@@ -10,12 +12,12 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter basename='/SiteClinica'>
+      <HashRouter>
         <Routes>
-          <Route exact path='/' element={<PaginaHome/>}></Route>
-          <Route path='/especialidades' element={<PaginaEspecialidades/>}></Route>
+          <Route exact path='/' ><PaginaHome/></Route>
+          <Route path='/especialidades'><PaginaEspecialidades/></Route>
         </Routes>      
-      </BrowserRouter>
+      </HashRouter>
       
     </div>
   );
