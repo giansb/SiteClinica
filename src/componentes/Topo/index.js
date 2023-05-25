@@ -13,7 +13,7 @@ export default function Topo(){
                 <button>&#9776;</button>
                 <ul class="link-list" type="none">
                     <li><HashLink to='/#sobre' smooth>Sobre</HashLink></li>
-                    <li><a href="/especialidades">Especialidades</a></li>
+                    <li><HashLink to="/especialidades">Especialidades</HashLink></li>
                     <li><HashLink to='/#contato' smooth>Contato</HashLink></li>
                 </ul>
                 

@@ -1,6 +1,7 @@
 import React from "react";
 import MoldePagina from "../MoldePagina";
 import './style.css'
+import { HashLink } from "react-router-hash-link";
 
 
 export default function PaginaEspecialidades(){
@@ -8,11 +9,11 @@ export default function PaginaEspecialidades(){
         <MoldePagina>
         <main>
         <section class="index ">
-            <a link href="#ort">Ortopedia</a>
-            <a href="#ped">Pediatria</a>
-            <a href="#ger">Geriatria</a>
-            <a href="#pis">psicologia</a>
-            <a href="#fis">fisioterapia</a>
+            <HashLink to="/especialidades#ort" smooth>Ortopedia</HashLink>
+            <HashLink to="/especialidades#ped" smooth>Pediatria</HashLink>
+            <HashLink to="/especialidades#ger" smooth>Geriatria</HashLink>
+            <HashLink to="/especialidades#pis" smooth>psicologia</HashLink>
+            <HashLink to="/especialidades#fis" smooth>fisioterapia</HashLink>
         </section>
         <section id="ort" class="espec">
             <div class="content-limit">
