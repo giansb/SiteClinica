@@ -9,16 +9,16 @@ import { HashRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    
       
-      
+      <HashRouter>
         <Routes>
-          <Route exact path='/' ><PaginaHome/></Route>
-          <Route path='/especialidades'><PaginaEspecialidades/></Route>
+          <Route exact path='/' element={<PaginaHome/>}></Route>
+          <Route path='/especialidades' element={<PaginaEspecialidades/>}></Route>
         </Routes>      
+      </HashRouter>
       
-      
-    </div>
+   
   );
 }
 
